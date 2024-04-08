@@ -1,6 +1,5 @@
 import styles from "./examples.module.css";
 
-
 export default function Examples() {
   return (
     <div className={styles.examples}>
