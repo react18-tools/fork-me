@@ -1,6 +1,6 @@
-# Turborepo template
+# fork-me
 
-[![test](https://github.com/react18-tools/turborepo-template/actions/workflows/test.yml/badge.svg)](https://github.com/react18-tools/turborepo-template/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/aa896ec14c570f3bb274/maintainability)](https://codeclimate.com/github/react18-tools/turborepo-template/maintainability) [![codecov](https://codecov.io/gh/react18-tools/turborepo-template/graph/badge.svg)](https://codecov.io/gh/react18-tools/turborepo-template) [![Version](https://img.shields.io/npm/v/@mayank1513/fork-me.svg?colorB=green)](https://www.npmjs.com/package/@mayank1513/fork-me) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/d18m/@mayank1513/fork-me.svg)](https://www.npmjs.com/package/@mayank1513/fork-me) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@mayank1513/fork-me) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![test](https://github.com/react18-tools/fork-me/actions/workflows/test.yml/badge.svg)](https://github.com/react18-tools/fork-me/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/aa896ec14c570f3bb274/maintainability)](https://codeclimate.com/github/react18-tools/fork-me/maintainability) [![codecov](https://codecov.io/gh/react18-tools/fork-me/graph/badge.svg)](https://codecov.io/gh/react18-tools/fork-me) [![Version](https://img.shields.io/npm/v/fork-me.svg?colorB=green)](https://www.npmjs.com/package/fork-me) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/d18m/fork-me.svg)](https://www.npmjs.com/package/fork-me) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/fork-me) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
 > [Featured packages built with this template.](./FEATURED.md)
 
@@ -34,13 +34,13 @@ This template offers following pre-configured features. Additionally, your repo 
 
 ✅ Workflow to automatically publish and create a GitHub release when you update your librari's `package.json` file.
 
-✅ Workflow to automatically rebrand entire template based on the name of the repo you create from this template. (As soon as you create a repo from this template, setup workflow is triggered which renames @mayank1513/fork-me to your repo name and does lots of other fixes to set you up and running.)
+✅ Workflow to automatically rebrand entire template based on the name of the repo you create from this template. (As soon as you create a repo from this template, setup workflow is triggered which renames fork-me to your repo name and does lots of other fixes to set you up and running.)
 
 ✅ With all these features, this readme file contains a quick checklist for you to configure Codecov and other badges, setup your docs website on GitHub pages, etc. See [Checklist](#step-by-step-instructions-and-checklist).
 
 #### Create a library that is
 
-✅ Fully Treeshakable (import from @mayank1513/fork-me/client/component)
+✅ Fully Treeshakable (import from fork-me/client/component)
 
 ✅ Full TypeScript Support
 
@@ -48,11 +48,28 @@ This template offers following pre-configured features. Additionally, your repo 
 
 ✅ Works with all build systems/tools/frameworks for React18
 
-✅ Doccumented with [Typedoc](https://react18-tools.github.io/turborepo-template) ([Docs](https://react18-tools.github.io/turborepo-template))
+✅ Doccumented with [Typedoc](https://react18-tools.github.io/fork-me) ([Docs](https://react18-tools.github.io/fork-me))
 
-## Introduction
+## Install
 
-This template is based on the official starter Turborepo but with additional features tailored for creating and publishing JavaScript/TypeScript and specifically React18 libraries.
+```bash
+$ pnpm add fork-me
+```
+
+or
+
+```bash
+$ npm install fork-me
+```
+
+or
+
+```bash
+$ yarn add fork-me
+```
+
+
+
 
 ## Getting started:
 
@@ -72,11 +89,11 @@ Compared to the default scaffold from create-turbo, this template offers:
 
 ## Step by Step Instructions and Checklist
 
-- [ ] Star [this repo](https://github.com/react18-tools/turborepo-template/) so that you and others can find it more easily for your next projects. It also helps me understand that people are using this repo so that I can maintain the repo and the documentation well.
-- [ ] Craete new GitHub repository using this template.
-  - [ ] Click `Use this template` button on top right -> `Create a new repository`
-  - [ ] Set your library name as repository name (This template has automation workflows to customize your repo assuming repo name as library name.)
-  - [ ] Click `Create repository` and wait for the setup workflow to finish rebranding your repo.
+- [ ] Star [this repo](https://github.com/react18-tools/fork-me/) so that you and others can find it more easily for your next projects. It also helps me understand that people are using this repo so that I can maintain the repo and the documentation well.
+
+
+
+
 - [ ] Install and setup Node.js and IDE (I prefer VSCode)
 - [ ] Install the recommended VSCode extensions - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Trello Kanban](https://marketplace.visualstudio.com/items?itemName=mayank1513.trello-kanban-task-board)
 - [ ] Install dependencies using `pnpm`
@@ -91,27 +108,27 @@ Compared to the default scaffold from create-turbo, this template offers:
   - [ ] Please make sure `owner` is set to your <npmjs.com> username before running the above command.
 - [ ] Set up `CodeCov`
   - [ ] Visit codecov and setup your repo
-  - [ ] Create [repository secret](https://github.com/react18-tools/turborepo-template/settings/secrets/actions) for `CODECOV_TOKEN`
+  - [ ] Create [repository secret](https://github.com/react18-tools/fork-me/settings/secrets/actions) for `CODECOV_TOKEN`
 - [ ] Set up `CodeClimate`
   - [ ] Visit CodeClimate and setup your repo
-  - [ ] Create [repository secret](https://github.com/react18-tools/turborepo-template/settings/secrets/actions) for `CC_TEST_REPORTER_ID`
+  - [ ] Create [repository secret](https://github.com/react18-tools/fork-me/settings/secrets/actions) for `CC_TEST_REPORTER_ID`
   - [ ] add `*.test.*` to ignore patterns on the website
   - [ ] update code climate badge
 - [ ] Add `NPM_AUTH_TOKEN` to repository secrets to automate publishing package
   - [ ] login to your [`npm` account](https://www.npmjs.com/login) and create automation token
   - [ ] Create a new repository secrets `NPM_AUTH_TOKEN`
-- [ ] Update description in `lib/@mayank1513/fork-me/package.json`
+- [ ] Update description in `lib/fork-me/package.json`
 - [ ] Update Repo Stats by visiting and setting up [repobeats](https://repobeats.axiom.co/)
 - [ ] Create your library and update examples
 - [ ] Update README
 - [ ] Setup GitHub pages to deploy docs
-  - [ ] Go to [repo settings](https://github.com/react18-tools/turborepo-template/settings/pages) -> pages (On left panel); Select deploy from a branch; Then Select `main` and `/docs`
+  - [ ] Go to [repo settings](https://github.com/react18-tools/fork-me/settings/pages) -> pages (On left panel); Select deploy from a branch; Then Select `main` and `/docs`
 - [ ] (Optional) Set up [Deepsource](https://app.deepsource.com/login) for static code analysis
 - [ ] Push your changes/Create PR and see your library being automatically tested and published
 - [ ] Optionally deploy your example(s) to Vercel.
 - [ ] Update sponsorship urls.
-- [ ] You are most welcome to star this template, contribute, and/or sponsor the `terbo-repo-template` project or my other open-source work
-- [ ] You can also fork the [`terbo-repo-template`](https://github.com/react18-tools/turbo-repo-template/fork) and add your package to `packages/shared-ui/src/examples/featured.json`
+- [ ] You are most welcome to star this template, contribute, and/or sponsor the `terborepo-template` project or my other open-source work
+- [ ] You can also fork the [`terborepo-template`](https://github.com/react18-tools/turbo-repo-template/fork) and add your package to `packages/shared-ui/src/examples/featured.json`
   - [ ] If approved your package will be automatically added to FEATURED.md and also published on the home page of this repo.
 
 ## What's inside?
@@ -143,7 +160,7 @@ Each package/example is 100% [TypeScript](https://www.typescriptlang.org/).
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd fork-me
 pnpm build
 ```
 
@@ -152,7 +169,7 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd fork-me
 pnpm dev
 ```
 
@@ -167,7 +184,7 @@ Learn more about the power of Turborepo:
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
 
-### 🤩 Don't forger to star [this repo](https://github.com/mayank1513/turborepo-template)!
+### 🤩 Don't forger to star [this repo](https://github.com/react18-tools/fork-me)!
 
 Want hands-on course for getting started with Turborepo? Check out [React and Next.js with TypeScript](https://mayank-chaudhari.vercel.app/courses/react-and-next-js-with-typescript) and [The Game of Chess with Next.js, React and TypeScrypt](https://www.udemy.com/course/game-of-chess-with-nextjs-react-and-typescrypt/?referralCode=851A28F10B254A8523FE)
 

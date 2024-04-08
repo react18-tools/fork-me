@@ -4,12 +4,12 @@ import { Card } from "./card";
 
 const cards = [
   {
-    href: "https://react18-tools.github.io/turborepo-template/",
+    href: "https://react18-tools.github.io/fork-me/",
     title: "Docs",
     description: "Explore the official docs.",
   },
   {
-    href: "https://github.com/react18-tools/turborepo-template",
+    href: "https://github.com/react18-tools/fork-me",
     title: "More Examples",
     description: "Explore more examples on official GitHub Repo.",
   },

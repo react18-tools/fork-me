@@ -1,6 +1,6 @@
 {
 	"name": "remix-example",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"private": true,
 	"sideEffects": false,
 	"type": "module",
@@ -11,7 +11,8 @@
 		"typecheck": "tsc"
 	},
 	"dependencies": {
-		"@mayank1513/fork-me": "workspace:*",
+		"@mayank1513/fork-me": "latest",
+		"fork-me": "workspace:*",
 		"@remix-run/css-bundle": "^2.8.1",
 		"@remix-run/node": "^2.8.1",
 		"@remix-run/react": "^2.8.1",
