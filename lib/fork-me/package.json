@@ -24,7 +24,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@testing-library/react": "^15.0.6",
+    "@testing-library/react": "^15.0.7",
     "@turbo/gen": "^1.13.3",
     "@types/node": "^20.12.10",
     "@types/react": "^18.3.1",
