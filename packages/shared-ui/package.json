@@ -22,6 +22,6 @@
     "typescript": "5.5.3"
   },
   "dependencies": {
-    "eslint": "^9.6.0"
+    "eslint": "^9.7.0"
   }
 }
