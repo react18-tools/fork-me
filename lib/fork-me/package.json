@@ -25,8 +25,8 @@
   },
   "devDependencies": {
     "@testing-library/react": "^16.0.1",
-    "@turbo/gen": "^2.3.1",
-    "@types/node": "^22.9.3",
+    "@turbo/gen": "^2.3.2",
+    "@types/node": "^22.9.4",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
