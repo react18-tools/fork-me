@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@mayank1513/fork-me": "workspace:*",
-    "nextjs-themes": "^4.0.3",
+    "nextjs-themes": "^4.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "shared-ui": "workspace:*"
