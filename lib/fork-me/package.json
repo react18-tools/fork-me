@@ -46,9 +46,9 @@
     "vitest": "^2.1.8"
   },
   "peerDependencies": {
-    "@types/react": "16.8 - 18",
-    "next": "10 - 14",
-    "react": "16.8 - 18"
+    "@types/react": "16.8 - 20",
+    "next": "10 - 16",
+    "react": "16.8 - 20"
   },
   "peerDependenciesMeta": {
     "next": {
