@@ -15,7 +15,7 @@
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "eslint-config-custom": "workspace:*",
-    "next": "^15.1.0",
+    "next": "^15.1.1",
     "nextjs-themes": "^4.0.4",
     "react": "^19.0.0",
     "tsconfig": "workspace:*",
