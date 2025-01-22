@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "@mayank1513/fork-me": "workspace:*",
-    "next": "^15.1.5",
+    "next": "^15.1.6",
     "nextjs-themes": "^4.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "shared-ui": "workspace:*"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^15.1.5",
+    "@next/eslint-plugin-next": "^15.1.6",
     "@types/node": "^22.10.7",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
