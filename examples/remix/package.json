@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@mayank1513/fork-me": "workspace:*",
-    "@remix-run/css-bundle": "^2.16.0",
-    "@remix-run/node": "^2.16.0",
-    "@remix-run/react": "^2.16.0",
-    "@remix-run/serve": "^2.16.0",
+    "@remix-run/css-bundle": "^2.16.1",
+    "@remix-run/node": "^2.16.1",
+    "@remix-run/react": "^2.16.1",
+    "@remix-run/serve": "^2.16.1",
     "isbot": "5.1.25",
     "nextjs-themes": "^4.0.6",
     "react": "^19.0.0",
@@ -23,9 +23,9 @@
     "shared-ui": "workspace:*"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.16.0",
-    "@remix-run/eslint-config": "^2.16.0",
-    "@types/react": "^19.0.10",
+    "@remix-run/dev": "^2.16.1",
+    "@remix-run/eslint-config": "^2.16.1",
+    "@types/react": "^19.0.11",
     "@types/react-dom": "^19.0.4",
     "eslint": "^9.22.0",
     "typescript": "^5.8.2"
