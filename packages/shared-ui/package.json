@@ -13,7 +13,7 @@
     "@mayank1513/fork-me": "workspace:*",
     "@types/node": "^22.14.0",
     "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
     "eslint-config-custom": "workspace:*",
     "next": "^15.2.5",
     "nextjs-themes": "^4.0.6",
