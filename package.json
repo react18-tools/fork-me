@@ -13,7 +13,7 @@
     "eslint": "^9.25.1",
     "prettier": "^3.5.3",
     "tsconfig": "workspace:*",
-    "turbo": "^2.5.0"
+    "turbo": "^2.5.1"
   },
   "name": "fork-me",
   "packageManager": "pnpm@9.1.4"
