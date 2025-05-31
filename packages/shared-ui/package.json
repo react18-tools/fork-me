@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@mayank1513/fork-me": "workspace:*",
-    "@types/node": "^22.15.28",
+    "@types/node": "^22.15.29",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "eslint-config-custom": "workspace:*",
@@ -22,6 +22,6 @@
     "typescript": "5.8.3"
   },
   "dependencies": {
-    "eslint": "^9.27.0"
+    "eslint": "^9.28.0"
   }
 }
