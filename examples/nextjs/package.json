@@ -13,8 +13,8 @@
     "@mayank1513/fork-me": "workspace:*",
     "next": "^15.4.4",
     "nextjs-themes": "^4.0.6",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "shared-ui": "workspace:*"
   },
   "devDependencies": {
