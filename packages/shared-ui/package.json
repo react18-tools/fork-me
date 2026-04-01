@@ -15,11 +15,11 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "eslint-config-custom": "workspace:*",
-    "next": "^16.2.1",
+    "next": "^16.2.2",
     "nextjs-themes": "^4.0.6",
     "react": "^19.2.4",
     "tsconfig": "workspace:*",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "dependencies": {
     "eslint": "^10.1.0"
