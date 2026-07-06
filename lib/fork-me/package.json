@@ -40,7 +40,7 @@
     "react": "^19.2.7",
     "tsconfig": "workspace:*",
     "tsup": "^8.5.1",
-    "typedoc": "^0.28.19",
+    "typedoc": "^0.28.20",
     "typescript": "^6.0.3",
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.1.9"
