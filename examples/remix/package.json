@@ -18,8 +18,8 @@
     "@remix-run/serve": "^2.17.5",
     "isbot": "5.2.1",
     "nextjs-themes": "^4.0.6",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "shared-ui": "workspace:*"
   },
   "devDependencies": {
